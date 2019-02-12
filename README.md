@@ -13,7 +13,7 @@ Azure Machine Learning Hands-on
 
 # コンテンツ
 
-- hello-aml.ipynb
+-  [hello-aml.ipynb](./hello-aml.ipynb)
 
     Azure Machine Learning の Python SDK を使った、学習部分について一通りの機能を試します。
 
