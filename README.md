@@ -25,32 +25,32 @@ Azure Machine Learning Hands-on
 
 ## 1. Azure Machine Learning ワークスペースの作成
 
-    こちらのドキュメントを参考に、Azure Machine Learning ワークスペースを作成してください。
+こちらのドキュメントを参考に、Azure Machine Learning ワークスペースを作成してください。
 
-    Azure Machine Learning Services ワークスペースを作成し、管理する:
+Azure Machine Learning Services ワークスペースを作成し、管理する:
 
-    https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-manage-workspace
+https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-manage-workspace
 
 
 ## 2. Azure Notebook 上 へのハンズオンコンテンツのコピー (クローン)
 
 Github にあるコンテンツをクローンします。
 
-    GitHub からプロジェクトをインポートする
+GitHub からプロジェクトをインポートする:
 
-    https://docs.microsoft.com/ja-jp/azure/notebooks/create-clone-jupyter-notebooks#import-a-project-from-github
-
-
-    インポート元
-
-    ```
-    https://github.com/DeepLearningLab/AML-Handson
-    ```
+https://docs.microsoft.com/ja-jp/azure/notebooks/create-clone-jupyter-notebooks#import-a-project-from-github
 
 
-    ノートブックで Azure Machine Learning service を使用する
+インポート元
 
-    https://docs.microsoft.com/ja-jp/azure/notebooks/use-machine-learning-services-jupyter-notebooks
+```
+https://github.com/DeepLearningLab/AML-Handson
+```
+
+
+ノートブックで Azure Machine Learning service を使用する:
+
+https://docs.microsoft.com/ja-jp/azure/notebooks/use-machine-learning-services-jupyter-notebooks
 
 ## 3. Azure Notebook のプロジェクトから、Azure Machine Learning services のワークスペース への接続
 
@@ -67,9 +67,9 @@ Github にあるコンテンツをクローンします。
       - Workspace への接続情報ファイルの作成 (config.json)
       - (option) AmlCompute の作成
 
-    Workspace のパラメーターは、Azure Portal にあります。
+Workspace のパラメーターは、Azure Portal にあります。
 
-      https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-configure-environment#workspace
+https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-configure-environment#workspace
 
 
 # Azure Machine Learning services を使った深層学習の実行
