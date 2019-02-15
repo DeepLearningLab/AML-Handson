@@ -58,7 +58,7 @@ https://docs.microsoft.com/ja-jp/azure/notebooks/use-machine-learning-services-j
 
     以下の Notebook を開いて、実行してください。
     
-## [0.configuration.ipynb](./0.configuration.ipynb)
+## [00.configuration.ipynb](./00.configuration.ipynb)
 
     Azure Machine Learning services の 利用確認
     
@@ -74,7 +74,7 @@ https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-configure
 
 # Azure Machine Learning services を使った深層学習の実行
 
-## [1.train-deploy_pytorch.ipynb](./1.train-deploy_pytorch.ipynb)
+## [01.train-deploy_pytorch.ipynb](./01.train-deploy_pytorch.ipynb)
 
     Azure Machine Learning の Python SDK を使った、学習部分について一通りの機能を試します。ここでは、PyTouch で学習を行います。 
 
@@ -88,7 +88,7 @@ https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-configure
       - REST での推論実行
 
 
-## [2.2.train-hyperparametertune-deploy_chainer.ipynb](./2.train-hyperparametertune-deploy_chainer.ipynb)
+## [02.train-hyperparametertune-deploy_chainer.ipynb](./02.train-hyperparametertune-deploy_chainer.ipynb)
 
     Chainer を使っての、学習部分と、Hyperparamter Tuning について一通りの機能を試します。
 
