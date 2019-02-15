@@ -6,7 +6,7 @@ Azure Machine Learning Hands-on
 - Microsoft Account
 - Azure の Subscription
 
-    お持ちない方は、Azure Free Trial へ。
+    お持ちない方は、Azure Free Trial へ。ただし、`GPU` インスタンスは *利用できません* ので、CPU のみでお願いします。
 
     https://azure.microsoft.com/ja-jp/free/
 
@@ -74,7 +74,7 @@ https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-configure
 
 # Azure Machine Learning services を使った深層学習の実行
 
-## [1.train-deploy_pytouch.ipynb](./1.train-deploy_pytouch.ipynb)
+## [1.train-deploy_pytorch.ipynb](./1.train-deploy_pytorch.ipynb)
 
     Azure Machine Learning の Python SDK を使った、学習部分について一通りの機能を試します。ここでは、PyTouch で学習を行います。 
 
@@ -82,7 +82,7 @@ https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-configure
       - 学習用 VM の設定
           コード上は `GPU` クラスターを作っています。無料トライアルでは、即座に使えませんので、`vm_size` に `STANDARD_D2_V2` などを指定して、`CPU` クラスターへ変更ください。
       - DataStore の設定
-      - 学習用のスクリプトの実行 (PyTouch)
+      - 学習用のスクリプトの実行 (PyTorch)
       - 学習結果の可視化
       - Azure Container Instance へデプロイ
       - REST での推論実行
@@ -106,6 +106,10 @@ https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-configure
 # GPU が使えない方のために
 
 CPU でも学習時間は比較的短い 有名なデータセットである MNIST を使ったものを試します。
+
+Source:
+
+https://github.com/Azure/MachineLearningNotebooks
 
 ## [11.automated-machine-learning_classification_auto-ml-classification.ipynb](11.automated-machine-learning_classification_auto-ml-classification.ipynb)
 
