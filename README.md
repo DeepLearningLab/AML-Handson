@@ -157,6 +157,20 @@ https://github.com/Azure/MachineLearningNotebooks
     https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-manage-quotas
  
 
+- AmlCompute や、Data Science VM など、作成したはずなのに利用ができない
+
+    `コンピューティング` として Azure Machine Learning Workspace内で設定がされているのに、CPUクォータ不足などがあって「失敗」という状況のまま、残っている場合があります。
+    
+    Azure Portal の、Azure Machine Learning services Workspace の `コンピューティング` から、削除ください。
+
+    - AmlCompute -> 削除
+    - Data Science VM -> でタッチ
+
+
+- Azure Machine Learning services 既知の問題
+
+https://docs.microsoft.com/ja-jp/azure/machine-learning/service/resource-known-issues
+
 # 参考ドキュメント
 
 - Azure Notebooks:
