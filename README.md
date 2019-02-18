@@ -103,6 +103,13 @@ https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-configure
       - REST での推論実行
 
 
+## 他の Framework のサンプル
+
+TensorFlow などのサンプルコードはこちらになります。
+
+https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/training-with-deep-learning
+
+
 # GPU が使えない方のために
 
 CPU でも学習時間は比較的短い 有名なデータセットである MNIST を使ったものを試します。
