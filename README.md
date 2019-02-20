@@ -177,7 +177,6 @@ https://docs.microsoft.com/ja-jp/azure/machine-learning/service/resource-known-i
  
     https://docs.microsoft.com/ja-jp/azure/notebooks/
 
-
 - Azure Machine Learning:
 
     https://docs.microsoft.com/ja-jp/azure/machine-learning/service/
