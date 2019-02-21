@@ -180,3 +180,7 @@ https://docs.microsoft.com/ja-jp/azure/machine-learning/service/resource-known-i
 - Azure Machine Learning:
 
     https://docs.microsoft.com/ja-jp/azure/machine-learning/service/
+
+- Visual Studio Code - Python Extention
+
+    https://code.visualstudio.com/docs/python/python-tutorial
