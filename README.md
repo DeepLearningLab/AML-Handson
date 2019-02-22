@@ -27,6 +27,17 @@ Azure Machine Learning Hands-on
 
 こちらのドキュメントを参考に、Azure Machine Learning ワークスペースを作成してください。
 
+スムーズにサンプルコードを動かすために、リージョン (データセンター) は、GPUインスタンスを使う関係で以下がおススメです。
+
+- 米国西部2
+- 米国東部 - こちらですと、FPGA での推論も使えます (Public Preview)
+
+- (**注**) 東南アジア - 一番近くにあるのですが、NCシリーズが **使えません**。AmlCompute を作成する際に、`NCv3` に変更してください。
+
+Azure どのリージョンで、どの製品が使えるのか:
+
+https://azure.microsoft.com/ja-jp/global-infrastructure/services/?products=virtual-machines
+
 Azure Machine Learning Services ワークスペースを作成し、管理する:
 
 https://docs.microsoft.com/ja-jp/azure/machine-learning/service/how-to-manage-workspace
